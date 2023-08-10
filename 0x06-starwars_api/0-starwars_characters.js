@@ -4,7 +4,7 @@
 const request = require('request');
 const FILMID = process.argv[2];
 
-// Request  for the URL
+// Request  for URL
 const URL_BASE = 'https://swapi-api.hbtn.io/api/films';
 
 function doRequest (url) {
